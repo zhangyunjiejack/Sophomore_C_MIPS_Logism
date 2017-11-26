@@ -1,0 +1,13 @@
+addiu $t0 $0 0
+beq $t0 $a1 exit
+sll $t1 $t0 2
+addu $t2 $a0 $t1
+lw $t3 0 $t2
+lui $at 0xFFFF
+ori $at $at 0xFFFF
+xor $at $t3 $at
+addiu $t3 $at 1
+sw $t3 0 $t2
+addiu $t0 $t0 1
+j loop
+jr $ra

@@ -1,0 +1,33 @@
+Scenario 1:
+1.  Hit Rate 0%
+    First time: Compulsory miss. Nothing in cache. 
+    Memory reaches data, which is a combination of 2 words at, the address. 
+    Memory sends the 2 words to cache.  
+    Cache replaces the data at the address with the 2 words. 
+    Step size = 8 = word size * 2. When memory access the next data.
+    Memory goes 8 bytes forward and misses data in the first block. Data in 2nd block is not in the cache. Miss. 
+    Repeat the process above. Array size is much larger than size of cache. Thus old data stored is replaced by new data. Thus always miss when the whole process is repeated 4 times.
+
+2.  0%. Increase, still, nothing corresponding in the cache and old data replaced by new data. 
+
+3.  Step size decrease to 1. Array size decrease to 32. Put everything in the cache. 
+
+Scenario 2:
+1.  Hit Rate 75%. 
+    Both read and write. 50% read and 50% write. There is 50% percent of read in which there is a miss. So 50% * 50% miss rate, which is 75% hit rate. 
+
+2.  Approaches 100%
+
+3.  Cache Blocking Technique: in exercise 2. Perform the task on the 1st element for 1024 times. Then we approach to the adjacent element which has not been processed. Save time so that cache does not have to be refreshed every time we repeat the process. 
+
+Ex2:
+ijk:	n = 1000, 1.335 Gflop/s
+ikj:	n = 1000, 0.188 Gflop/s
+jik:	n = 1000, 1.120 Gflop/s
+jki:	n = 1000, 7.919 Gflop/s
+kij:	n = 1000, 0.195 Gflop/s
+kji:	n = 1000, 7.018 Gflop/s
+
+a.  jki is the fastest. 
+b.  ikj is the worst. 
+c.  Same as 3 in Scenario 2. Perform the task on elements adjacent to the current one to save time. 

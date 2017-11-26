@@ -1,0 +1,1 @@
+/Library/Developer/CommandLineTools/usr/bin/cc  -g -Wl,-search_paths_first -Wl,-headerpad_max_install_names  CMakeFiles/proj2_ait.dir/src/tables.c.o CMakeFiles/proj2_ait.dir/src/translate.c.o CMakeFiles/proj2_ait.dir/src/translate_utils.c.o CMakeFiles/proj2_ait.dir/src/utils.c.o CMakeFiles/proj2_ait.dir/assembler.c.o CMakeFiles/proj2_ait.dir/test_assembler.c.o  -o proj2_ait 

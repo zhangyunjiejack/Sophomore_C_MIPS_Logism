@@ -1,0 +1,13 @@
+.text
+08000000
+0c000000
+
+.symbol
+0	label1
+0	label2
+8	label3
+16	label4
+
+.relocation
+8	label2
+16	label1

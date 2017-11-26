@@ -1,0 +1,11 @@
+.text
+2402000a
+2404e890
+3c010001
+3c0100ba
+
+.symbol
+4	label1
+8	label2
+
+.relocation

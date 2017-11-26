@@ -1,0 +1,6 @@
+addiu $v0 $0 10
+addiu $a1 $0 -6000
+lui $at 1
+ori $a2 $at 80000
+lui $at 186
+ori $a3 $at 12241662

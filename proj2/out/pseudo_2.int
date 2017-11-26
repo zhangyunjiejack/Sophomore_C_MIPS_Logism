@@ -1,0 +1,9 @@
+lui $at 291
+ori $t0 $at 19088743
+addiu $s0 $zero 3/naddiu $t1 $zero 1/naddiu $t3 $zero 4/nxori $t0 $t0 4294967295
+addiu $t0 $t0 $1
+addiu $t2 $t0 $0
+mult $s0 $t1
+mfhi $s1mfhi $s2xori $s0 $s0 4294967295
+addiu $s0 $s0 $1
+addiu $a0 $s0 $0

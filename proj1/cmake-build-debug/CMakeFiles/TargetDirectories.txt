@@ -1,0 +1,3 @@
+/Users/zhangyunjie/Desktop/ZYJ/Sophomore/CS61C/proj1-ait/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/zhangyunjie/Desktop/ZYJ/Sophomore/CS61C/proj1-ait/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/zhangyunjie/Desktop/ZYJ/Sophomore/CS61C/proj1-ait/cmake-build-debug/CMakeFiles/proj1_ait.dir

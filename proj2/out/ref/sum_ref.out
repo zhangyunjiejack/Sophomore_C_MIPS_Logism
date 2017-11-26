@@ -1,0 +1,20 @@
+.text
+27bdfff8
+afa40000
+afbf0004
+24020000
+10800004
+2484ffff
+0c000000
+8fa40000
+00441021
+8fbf0004
+27bd0008
+03e00008
+
+.symbol
+0	sum
+36	exit
+
+.relocation
+24	sum

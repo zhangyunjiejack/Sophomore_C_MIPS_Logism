@@ -1,0 +1,2 @@
+Ex1: Assuming 2's complement representation, what inputs will produce Out1 = 1?
+10000001

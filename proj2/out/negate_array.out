@@ -1,0 +1,17 @@
+.text
+24080000
+00084880
+00895021
+8d4b0000
+ad4b0000
+25080001
+08000000
+03e00008
+
+.symbol
+0	neg_array
+4	loop
+40	exit
+
+.relocation
+40	loop

@@ -1,0 +1,28 @@
+What do the .data, .word, .text directives mean (i.e. what do you use them for)?
+.text: Subsequent	items	put	in	user	text	segment	(machine	code)
+.data: Subsequent	items	put	in	user	data	segment	(binary	rep	of	data	in source	file)
+.globl sym: declares	sym	global	and	can	be	referenced	from	other	files
+.asciiz str: Store	the	string	str	in	memory	and	null-terminate	it
+.word w1…wn: Store the n 32-bit quantities in successive memory words
+
+How do you set a breakpoint in MARS? Set a breakpoint on line 14 and run to it. What is the instruction address? Has line 14 executed yet?
+Click on the box called Bkpt at the front of each line.
+0x00400020
+
+Once at a breakpoint, how do you continue to execute your code? How do you step through your code? Run the code to completion.
+f7
+Keep f7 or use f5
+
+Find the "Run I/O" window. What number did the program output? If 0 is the 0th fib number, which fib number is this?
+34
+9th fib number
+
+At what address is n stored in memory? Try finding this by (1) looking at the Data Segment and (2) looking at the machine code (Code column in the Text Segment).
+0x10010010
+
+How do you view and modify the contents of a register? Reset the simulation (Run-->Reset or F12) and now calculate the 13th fib number by (1) breaking at a well-chosen spot, (2) modifying a single register, and then (3) unsetting the breakpoint.
+change t3 to 13
+
+Lines 19 and 21 use the syscall instruction. What is it and how do you use it? (Hint: look in Help)
+line 19 print integer
+line 21 exit
